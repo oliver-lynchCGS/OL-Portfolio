@@ -17,9 +17,9 @@ Grade Predictor - OL Portfolio, this program is an example of linear regression 
 
 # Features:  
 
-predict = "G2" 
-# Can be changed to any group of grade data in student-mat.csv
+predict = "G2", 
+Can be changed to any group of grade data in student-mat.csv
 
 p = "G2"
-pyplot.scatter(data[p], data["G2"])
-# "G2" can be changed to any group of grade data (G1, G2, G3) in student-mat.csv to represent the data on a scatter plot
+pyplot.scatter(data[p], data["G2"]),
+"G2" can be changed to any group of grade data (G1, G2, G3) in student-mat.csv to represent the data on a scatter plot
